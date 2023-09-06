@@ -1,0 +1,2 @@
+# terraformTraining
+For learning terraform
