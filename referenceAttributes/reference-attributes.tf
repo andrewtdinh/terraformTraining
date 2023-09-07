@@ -1,5 +1,7 @@
 provider "aws" {
   region = "us-west-1"
+  shared_config_files = ["/Users/anhbamuoi/.aws/conf"]
+  shared_credentials_files = ["/Users/anhbamuoi/.aws/credentials"]
 }
 
 resource "aws_eip" "lb" {
